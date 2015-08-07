@@ -10,6 +10,8 @@ You can set up DISQUS easy by just editing your pelican configuration. Example:
 
     DISQUS="SHORT_NAME"
 
+Change the `cat ~/.yoursite_history` in `archives.html`
+
 ## License
 
 It's licensed under MIT License.
