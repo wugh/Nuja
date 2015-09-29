@@ -13,7 +13,7 @@
 
 		{% for article in dates %}
 		<ul class="archive-section">
-		    <li class="date">{{ article.date|strftime('%B %d, %Y')}}</li>
+		    <li class="date">{{ article.date|strftime('%b %d, %Y')}}</li>
 		    <li class="title"><a href="{{SITEURL}}/{{article.url}}">{{article.title}}</a></li>
 
 		</ul>
